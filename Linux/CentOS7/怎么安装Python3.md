@@ -1,26 +1,24 @@
 ```shell
 系统环境：CentOS7
 代码运行环境：bash shell
+最后确认日期：2019年7月9日
 ```
 
-## 安装最新版本的EPEL
+### 安装最新版本的EPEL
 
-`sudo yum install epel-release`
+```shell
+sudo yum install epel-release
+```
 
-## 用yum安装python3
+### 用yum安装python3
 
-### 当前可用
+```shell
+sudo yum install python36
+```
 
-`sudo yum install python36`
-
-### 模板
-匹配特定版本号
-
-`sudo yum install python3[1-6]`
-
-## 附加安装pip
+### 附加安装pip
 
 ```shell
 curl -O https://bootstrap.pypa.io/get-pip.py
-sudo /usr/bin/python3.4 get-pip.py
+sudo /usr/bin/python3.6 get-pip.py
 ```
